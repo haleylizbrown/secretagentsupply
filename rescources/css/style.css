@@ -6,23 +6,25 @@
 
 .header {
   display: flex;
-  width: 100%;
-  height: 2.82rem;
+  width: 1080px;
+  height: 23.52px;
   background-color: black;
-  padding-left: 0.5rem;
-  justify-content: left;
+  padding-left: 120px;
+  padding-bottom: 0.66rem;
+  padding-top: 0.66rem;
+  align-items: center;
 }
 
 .header img {
-  color: white;
+  display: inline-flex;
   height: 1.5rem;
-  padding-left: 120.5px;
-  padding-right: 1rem;
-  padding-top: 0.66rem;
-  padding-bottom: 0.66rem;
+  padding-left: 0.5rem;
 }
 
 .header p {
+  display: inline-flex;
+  padding-left: 1rem;
+  color: white;
   font-size: 1rem;
 }
 
@@ -61,4 +63,30 @@
   width: 20rem;
   font-size: 2rem;
   font-weight: bold;
+}
+
+.menu {
+  display: flex;
+  margin-top: 25rem;
+}
+
+.pen-img {
+  display: inline-flex;
+  margin-top: 50rem;
+  height: 9rem;
+  width: 30%;
+}
+
+.watch-img {
+  display: inline-flex;
+  margin-top: 50rem;
+  height: 9rem;
+  width: 30%;
+}
+
+.glasses-img {
+  display: inline-flex;
+  margin-top: 50rem;
+  height: 9rem;
+  width: 30%;
 }
